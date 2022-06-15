@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: "Manrope", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: hsl(218, 23%, 16%);
+	color: hsl(193, 38%, 86%);
+	height: 100vh;
+}
+#root {
+	height: 100%;
+}
+.App {
+	height: 100%;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.container {
+	width: 35%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text-container {
+	padding: 2em;
+	background-color: hsl(217, 19%, 24%);
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+}
+.advice-number {
+	color: #52ffa8;
+}
+
+button {
+	border-radius: 50%;
+	padding: 15px 17px;
+	background-color: hsl(150, 100%, 66%);
+	position: absolute;
+	bottom: -23px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+button:hover {
+	-webkit-box-shadow: 0px 0px 40px 1px #52ffa8;
+	box-shadow: 0px 0px 40px 1px #52ffa8;
+}
+.line {
+	width: 100%;
+	position: relative;
+	height: 0;
+	margin: 30px 0;
+	border-top: 1px solid #cee3e9;
+}
+
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 650px) {
+	.container {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 400px) {
+	.container {
+		width: 90%;
+	}
+}
