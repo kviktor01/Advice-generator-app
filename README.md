@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Expenses-chart-component git](https://github.com/kviktor01/Expenses-chart-component)
-- Live Site URL: [Expenses chart component](https://mellifluous-jelly-146478.netlify.app/)
+- Solution URL: [Advice generator app git](https://github.com/kviktor01/Advice-generator-app)
+- Live Site URL: [Avice generator app](https://glowing-tarsier-43d3e3.netlify.app/)
 
 ## My process
 
